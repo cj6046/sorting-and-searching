@@ -35,8 +35,8 @@ def selection_sort(my_list, i):
 def swap(my_list, a, b):
     """Swap two elements in a list."""
     temp = my_list[a]
-    myList[a] = my_list[b]
-    myList[b] = temp
+    my_list[a] = my_list[b]
+    my_list[b] = temp
 
 def get_min_pos(my_list, i):
     """Return the position of the smallest integer in a lits."""
